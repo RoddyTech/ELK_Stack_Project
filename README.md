@@ -1,5 +1,5 @@
 # ELK_Stack_Project
-UPenn Security Bootcamp ELK Stack Project
+UPenn CyberSecurity Bootcamp ELK Stack Project
 
 ## Automated ELK Stack Deployment
 
