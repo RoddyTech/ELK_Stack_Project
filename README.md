@@ -156,7 +156,7 @@ SSH into the control node and follow the steps below:
    
 - Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?
 
-  You must update the hosts file in the etc/ansible directory by adding the ip address of the specific machine or machines. And then you must modify the hosts parameter in your playbook with your host. 
+  You must update the hosts file in the etc/ansible directory by adding the ip address of the specific machine. And then you must modify the hosts parameter in your playbook with your host. 
   
   Add the following to your hosts file:
   ````
