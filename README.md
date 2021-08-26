@@ -5,7 +5,7 @@ UPenn CyberSecurity Bootcamp ELK Stack Project
 
 The files in this repository were used to configure the network depicted below.
 
-![](Diagrams/Network-Diagram.png)
+![](Diagrams/Network-Diagram.jpg)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the playbook file may be used to install only certain pieces of it, such as Filebeat.
 
@@ -156,7 +156,7 @@ SSH into the control node and follow the steps below:
    
 - Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?
 
-  You must update the hosts file in the etc/ansible directory by adding the ip address of the specific machine or machines. And then modify the hosts parameter in your playbook with your host. 
+  You must update the hosts file in the etc/ansible directory by adding the ip address of the specific machine or machines. And then you must modify the hosts parameter in your playbook with your host. 
   
   Add the following to your hosts file:
   ````
@@ -172,7 +172,7 @@ SSH into the control node and follow the steps below:
 
   http://[your.VM.IP]:5601/app/kibana
   
-  ![](Kibana-page.PNG)
+  ![](Images/Kibana-page.PNG)
   
   
 
