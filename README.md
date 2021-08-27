@@ -139,7 +139,7 @@ We have installed the following Beats on these machines:
 
 These Beats allow us to collect the following information from each machine:
 - `Filebeat` collects log events, which we use to track and monitor user log messages.
-- `Metricbeat` collects metric data, which we use to track user system health and status.
+- `Metricbeat` collects metric data, which we use to track user system health and metrics.
 
 
 ### Using the Playbook
@@ -173,6 +173,11 @@ SSH into the control node and follow the steps below:
   http://[your.VM.IP]:5601/app/kibana
   
   ![](Images/Kibana-page.PNG)
+  
+  
+  ### User commands:
+  To run the playbooks for the ansible installations you need to run the following command:
+  - ansible-playbook (name-of-playbook)
   
   
 
