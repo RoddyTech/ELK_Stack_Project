@@ -28,7 +28,7 @@ Load balancing ensures that the application will be highly available, in additio
 - Load balancers help protect servers from cyber attacks such as a Distributed Denial-of-Service (DDoS) attack. By distributing traffic amongst servers to lighten the load of said malious traffic. One benefit of using a jump box is that it retricts access and protects your virtual machines from the internet.
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the log files and system metrics.
-- File Logs monitoried by Filebeat
+- Log files monitoried by Filebeat
 - Metrics monitoried by Metricbeat
 
 The configuration details of each machine may be found below.
