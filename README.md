@@ -67,10 +67,10 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 The playbook implements the following tasks:
 - Installs Docker.io on the ELK machine
 - Installs Python3-pip
-- pip install docker module
-- Uses sysctl to increase Virtual Memory
-- Download and launch a docker elk container with exposed ports
-- Enable Docker service on boot
+- pip installs docker module
+- Uses sysctl to increase System Virtual Memory
+- Downloads and launches a docker elk container with exposed ports
+- Enables Docker service on boot
 ````
 ---
 - name: Configure Elk VM with Docker
@@ -147,7 +147,7 @@ In order to use the playbook, you will need to have an Ansible control node alre
 
 SSH into the control node and follow the steps below:
 - Copy the configuration files to etc/ansible.
-- Update the hosts file to include the private IP addresse of the machine you wish install and configure ELK in.
+- Update the hosts file to include the private IP address of the machine you wish install and configure ELK in.
 - Run the playbook, and navigate to Kibana (Public_IP:5601) to check that the installation worked as expected.
 
 - Which file is the playbook? Where do you copy it?
