@@ -36,10 +36,10 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 
 | Name     | Function | IP Address | Operating System |
 |----------|----------|------------|------------------|
-| Jump Box | Gateway  | 10.0.0.4   | Linux            |
-| Web-1    | VM       | 10.0.0.8   | Linux            |
-| Web-2    | VM       | 10.0.0.9   | Linux            |
-| ELKbase  | ELKStack | 10.1.0.5   | Linux            |
+| Jump Box | Gateway  | 10.0.0.4   | Ubuntu 18.04-LTS |
+| Web-1    | VM       | 10.0.0.8   | Ubuntu 18.04-LTS |
+| Web-2    | VM       | 10.0.0.9   | Ubuntu 18.04-LTS |
+| ELKbase  | ELKStack | 10.1.0.5   | Ubuntu 18.04-LTS |
 
 ### Access Policies
 
