@@ -179,5 +179,5 @@ SSH into the control node and follow the steps below:
   To run the playbooks for the ansible installations you need to run the following command:
   - ansible-playbook (name-of-playbook)
   
-  
+  ###  
 
