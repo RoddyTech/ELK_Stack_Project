@@ -146,7 +146,7 @@ These Beats allow us to collect the following information from each machine:
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
 SSH into the control node and follow the steps below:
-- Copy the configuration files to etc/ansible.
+- Copy the configuration files and the playbooks to etc/ansible.
 - Update the hosts file to include the private IP address of the machine you wish install and configure ELK in.
 - Run the playbook, and navigate to Kibana (Public_IP:5601) to check that the installation worked as expected.
 
@@ -156,7 +156,7 @@ SSH into the control node and follow the steps below:
    
 - Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?
 
-  You must update the hosts file in the etc/ansible directory by adding the private ip address of the specific machine or machines you wish to install ELK or Filebeat on.
+  You must update the hosts file in the etc/ansible directory. By adding the private ip address of the specific machine or machines you wish to install ELK or Filebeat on.
   
   Add the following to your hosts file:
   ````
